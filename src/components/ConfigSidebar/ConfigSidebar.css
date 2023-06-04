@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+/* https://www.w3schools.com/howto/howto_css_sticky_element.asp */
+
+#sidebar-container {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 25vw;
+  height: 75vh;
+  margin-left: 4rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.option {
+  width: 80%;
+  height: 100%;
+  background-color: white;
+}
+
+.configtitle {
+  width: 90%;
+  text-align: left;
+  border-bottom: 2px solid black;
+}
+
+.configtitle-text {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1.2px;
+  margin: 0;
+
+}

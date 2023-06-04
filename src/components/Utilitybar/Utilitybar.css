@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+#utilitycontainer {
+    height: 15vh;
+    width: 100%;
+    
+    
+
+}
+
+#housetitle {
+    
+    height: 100%;
+    margin-left: 20vw;
+    
+    text-align: end;
+    
+    white-space: nowrap; 
+    display: inline-block; 
+    
+}
+
+#housetitletext {
+    margin-top: 4vh;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1.2px;
+    font-size: 5vh;
+    
+    
+}
