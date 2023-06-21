@@ -7,13 +7,13 @@ function ButtonBar() {
 
     return (
         <>
-        <div id="button-group-container">
-            <ButtonGroup variant="contained" aria-label="outlined primary button group" >
-                <Button>General</Button>
-                <Button>Bathroom</Button>
-                <Button>Kitchen</Button>
-                <Button>Extra's</Button>
-            </ButtonGroup>
+            <div id="button-group-container">
+                <ButtonGroup variant="contained" aria-label="outlined primary button group" >
+                    <Button>General</Button>
+                    <Button>Bathroom</Button>
+                    <Button>Kitchen</Button>
+                    <Button>Extra's</Button>
+                </ButtonGroup>
             </div>
 
 

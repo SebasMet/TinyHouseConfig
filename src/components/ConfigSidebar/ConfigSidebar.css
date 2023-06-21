@@ -51,13 +51,19 @@
 #option-button {
   padding: 0;
   margin: 4px;
+  text-align: center;
   
   
-  background-color: violet;
+  background-color: white;
   outline: 2px solid black;
   max-width: 100px;
   width: 100px !important;
   height: 100px !important;
 
+}
+
+#option-text {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
 

@@ -1,4 +1,5 @@
 export type ConfigOptions = {
     imageUrl: string,
-    text: string
+    text: string,
+    resultImage: string
   }
