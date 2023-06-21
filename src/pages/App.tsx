@@ -1,11 +1,10 @@
 // App.tsx
-import ButtonBar from '../components/ButtonBar/ButtonBar'
 import ConfigSidebar from '../components/ConfigSidebar/ConfigSidebar'
 import ImageCarousel from '../components/ImageCarousel/ImageCarousel'
 import CNavbar from '../components/Navbar/CNavbar'
 import Utilitybar from '../components/Utilitybar/Utilitybar'
 import './App.css'
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 function App() {
   const [currentImage, setCurrentImage] = useState<string>('https://i.ibb.co/j8bm8d4/Whats-App-Image-2023-06-20-at-18-04-43.jpg');
