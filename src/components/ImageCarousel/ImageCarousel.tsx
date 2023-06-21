@@ -1,5 +1,4 @@
 import Carousel from 'react-material-ui-carousel';
-import testimage from './testimage.jpg'
 import './ImageCarousel.css'
 import React from 'react';
 
@@ -8,10 +7,10 @@ interface Props {
 }
 
 const ImageCarousel: React.FC<Props> = ({ currentImage }) => {
-  const imageStyle = {
+  const imageStyle: React.CSSProperties = {
     width: '100%',
     height: '100%',
-    objectFit: 'cover',  // or 'contain' if you want to see the whole image
+    objectFit: 'cover', // or 'contain' if you want to see the whole image
   };
 
   return (
