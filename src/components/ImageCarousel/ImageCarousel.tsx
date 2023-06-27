@@ -10,7 +10,7 @@ const ImageCarousel: React.FC<Props> = ({ currentImage }) => {
   const imageStyle: React.CSSProperties = {
     width: '100%',
     height: '100%',
-    objectFit: 'cover', // or 'contain' if you want to see the whole image
+    objectFit: 'cover', 
   };
 
   return (
